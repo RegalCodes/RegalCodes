@@ -1,0 +1,57 @@
+body {
+  background-color: #EAF6F6;
+}
+
+hr {
+    border-style: dotted none none;
+    width: 5%;
+    border-color: grey;
+    border-width: 5px;
+}
+
+
+
+h1 {
+  background-color: none;
+  color: #66BFBF;
+}
+
+h3 {
+  background-color: none;
+  color: #66BFBF;
+}
+
+
+/******************Class Selectors**************************/
+/*
+this is how to do a comment
+
+to differentiate styles for multiple things of the same item such as img.
+Do class="bacon"
+   class="broccoli" in the main file .
+
+
+   to use it as a selector . instead of img or h1 or h3
+   you'd just use the class name such as
+   .bacon {
+   background-color: green;
+ }
+*/
+
+/******************ID Selectors**************************/
+/*
+#heading {
+  color:blue;
+}
+
+*/
+
+/* the #heading is more specific so it overrides the one in the index page.
+ex. <h1 id="heading">I Love Bacon </h1>   , can have only one ID per page.
+Can't have more than one ID for ID's, but for classes you can have multiple which
+is used more often.
+
+sudo classes like :hover ,
+img:hover{
+  background-color: gold;
+}
